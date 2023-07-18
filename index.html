@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="gallery">
-        <img src="image1.jpeg" alt="Image 1">
-        <img src="image2.jpeg" alt="Image 2">
-        <img src="image3.jpeg" alt="Image 3">
-        <img src="image4.jpeg" alt="Image 1">
-        <img src="image5.jpeg" alt="Image 2">
-        <img src="iamge6.jpeg" alt="Image 3">
-        
+    <div class="grid xs:grid-cols-2 grid-cols-1 xl:grid-cols-6  sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+        <img class="col-span-1 mx-auto sm:mx-0 w-[250px] h-[230px] object-cover border-2 border-black rounded-lg" src="image1.jpeg" alt="Image 1">
+        <img class="col-span-1 w-[250px] h-[230px] object-cover border-2 border-black rounded-lg"src="image2.jpeg" alt="Image 2">
+        <img class="col-span-1 w-[250px] h-[230px] object-cover border-2 border-black rounded-lg" src="image3.jpeg" alt="Image 3">
+        <img class="col-span-1 w-[250px] h-[230px] object-cover border-2 border-black rounded-lg" src="image4.jpeg" alt="Image 1">
+        <img class="col-span-1 w-[250px] h-[230px] object-cover border-2 border-black rounded-lg"src="image5.jpeg" alt="Image 2">
+        <img class="col-span-1 w-[250px] h-[230px] object-cover border-2 border-black rounded-lg" src="iamge6.jpeg" alt="Image 3">
+     
       </div>
       
 </body>
